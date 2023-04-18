@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23ff0000%22></rect><path fill=%22%23fff%22 d=%22M77.81 20.16L77.81 64.72Q77.81 68.85 76.59 72.23Q75.38 75.60 72.28 77.99Q69.17 80.38 63.77 81.72Q58.37 83.07 50 83.07L50 83.07Q41.63 83.07 36.23 81.72Q30.83 80.38 27.73 77.99Q24.62 75.60 23.41 72.23Q22.19 68.85 22.19 64.72L22.19 64.72L22.19 20.16Q22.19 18.45 22.95 17.69Q23.72 16.92 25.43 16.92L25.43 16.92L39.56 16.92Q41.27 16.92 42.03 17.69Q42.80 18.45 42.80 20.16L42.80 20.16L42.80 61.20Q42.80 63.00 44.15 64.22Q45.50 65.44 50.18 65.44L50.18 65.44Q54.95 65.44 56.30 64.22Q57.65 63.00 57.65 61.20L57.65 61.20L57.65 20.16Q57.65 18.45 58.41 17.69Q59.18 16.92 60.89 16.92L60.89 16.92L74.57 16.92Q76.28 16.92 77.04 17.69Q77.81 18.45 77.81 20.16L77.81 20.16Z%22></path></svg>" />
+<script src="https://kit.fontawesome.com/10facf3afb.js" crossorigin="anonymous"></script>
+    <title>brand</title>
+</head>
+<body>
+    
+    <header>
+            <div class="logo">
+            <div class="brandLogo">U</div>
+            <div class="brands">brands</div>
+            </div>
+        
+        <nav>
+            <div class="navItems">
+                <div class="itemboxhb">
+                   
+                    <div class="items">
+                        <a href="#">Home</a>
+                    </div>
+                </div>
+                <div class="itemboxhb">
+                    
+                    <div class="items">
+                        <div class="brandList">
+                            <a href="#" onclick="show_brands()">brands</a>
+                            <div id="shoes_id" class="brandName">
+                                <ul>
+                                    <li><a href="" id="nike" onclick="show_nike()">Nike</a></li>
+                                   <li><a href="" id="puma" onclick="show_puma()">Vans</a></li>
+                                   <li><a href="" id="vans" onclick="show_vans()">Reebok</a></li>
+                                   <li><a href="" id="adidas" onclick="show_adidas()">Adidas</a></li>
+                                   <li><a href="" id="reebok" onclick="show_reebok()">Adidas</a></li>
+                                   </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itembox">
+                    <div class="icon">
+                        <i class="fa-regular fa-bell" class="notfBell"></i>
+                    </div>
+                    <div class="items">
+                        <a href="#">Notification</a>
+                    </div>
+                </div>
+                <div class="itembox">
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="items">
+                        <a href="#">Cart</a>
+                    </div>
+                  
+                </div>
+                <div class="itembox">
+                    <a href="#"><i class="fa-solid  fa-bars" id="bars" onclick="show_bar()"></i></a>
+                </div>
+                
+                
+            </div>
+           
+           </nav>
+           
+         
+        
+        <div id="baritem" class="barset">
+            <ul>
+             <li><a href="" onclick="show_nike">liked</a></li>
+            <li><a href="" id="puma" onclick="show_puma">shoes Gallery</a></li>
+            <li><a href="" id="vans" onclick="show_vans">setting</a></li>
+            <li><a href="" id="adidas" onclick="show_adidas">Transaction</a></li>
+            <li><a href="" id="reebok" onclick="show_reebok">logout</a></li>
+            </ul>
+        </div>
+        </header> 
+        <br>
+        <span id="brand">New Shoes</span>
+        <div class="shoesGallery">
+            <span class="Previous" onclick="next()"><i class="fa-solid fa-3x fa-chevron-left"></i></span>
+            <div class="box1">
+                <div class="shoesPhoto">
+                    
+                </div>
+                <div class="shoesdescrption">
+                    <h1>Jordan</h1>
+                    <span class="price">Price : $224</span>
+                    <br>
+                    <label>Size:</label>
+                    <div class="size">
+                        <label for="text"></label>
+                        <input class="enterSize" type="number">
+                    </div>
+                    <button class="cart-btn">Add to cart</button>
+                    
+                </div>
+            </div>
+            <div class="box2">
+                <div class="shoesPhoto"></div>
+                <div class="shoesdescrption">
+                    <h1>Jordan</h1>
+                    <span class="price">Price : $224</span>
+                    <br>
+                    <label>Size:</label>
+                    <div class="size">
+                        <label for="text"></label>
+                        <input class="enterSize" type="number">
+                    </div>
+                    <button class="cart-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="shoesPhoto"></div>
+                <div class="shoesdescrption">
+                    <h1>Jordan</h1>
+                    <span class="price">Price : $224</span>
+                    <br>
+                    <label>Size:</label>
+                    <div class="size">
+                        <label for="text"></label>
+                        <input class="enterSize" type="number">
+                    </div>
+                    <button class="cart-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="shoesPhoto">
+                    
+                </div>
+                <div class="shoesdescrption">
+                    <h1>Jordan</h1>
+                    <span class="price">Price : $224</span>
+                    <br>
+                    <label>Size:</label>
+                    <div class="size">
+                        <label for="text"></label>
+                        <input class="enterSize" type="number">
+                    </div>
+                    <button class="cart-btn">Add to cart</button>
+                </div>
+            </div>
+            <span id class="Next" onclick="next()"><i class="fa-solid fa-3x fa-chevron-right" ></i></span>
+        </div>
+        
+        <div class="brandUser">
+            <div class="user">
+                <span id="men" ><a href="#">Men</a></span>
+            </div>
+            <div class="user">
+                <span id="women" ><a href="#">Women</a></span>
+            </div>
+        </div>
+      
+        
+        <footer>
+            <div class="main-container">
+                <div class="box1">
+                    <h3>About us</h3>
+                    <div class="content">
+                        <p>online shoes shopping websites. Its name is Ubrands, operates through all ethipian city and give deliver service for customer</p>
+                    </div>
+                    <div class="social">
+                       <a href="#"><span class="sociaicon"><i class="fa-brands fa-2x  fa-facebook"></i></span></a>
+                       <a href="#"><span class="sociaicon"><i class="fa-brands fa-2x fa-twitter"></i></span></a>
+                       <a href="#"><span class="sociaicon"><i class="fa-brands fa-2x fa-instagram"></i></span></a>
+                       <a href="#"><span class="sociaicon"><i class="fa-brands fa-2x fa-telegram"></i></i></span></a> 
+                    </div>
+                </div>
+                <div class="box2">
+                    <h3>Address</h3>
+                    <div class="content">
+                        <div class="place">
+                            <span ><i class="fa-sharp fa-solid fa-2x fa-location-dot"></i></span>
+                            <span class="text">Arbaminch, Ethiopia</span>
+                        </div>
+                        <div class="phone">
+                            <span><i class="fa-sharp fa-solid fa-2x fa-phone"></i></span>
+                            <span class="text">+251926267899</span>
+                        </div>
+                        <div class="email">
+                            <span><i class="fa-regular fa-2x fa-envelope"></i></span>
+                            <span class="text">henockbelachew3436@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <h3>Contact us</h3>
+                    <div class="content">
+                        <form action="#" >
+                            <div class="text">Email</div>
+                            <input type="email" required>
+                            <div class="messsage">Message</div>
+                            <textarea rows="3" cols="6"></textarea>
+                            <div class="btn">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        
+           </footer>
+        <script src="homepage.js"></script>   
+</body>
+</html>

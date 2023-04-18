@@ -1,0 +1,836 @@
+
+body{
+    height: 100%; margin: 0;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(9,53,84,1) 0%, rgba(48,117,164,1) 20%, rgba(48,158,217,1) 50%, rgba(48,117,164,1) 80%, rgba(9,53,84,1) 100%);
+   
+    
+    
+    
+    background-clip: border-box;
+   
+    
+}
+
+header{
+    
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 10px;
+    padding: 30px 10%;
+    background: rgb(9,54,85);
+    
+    
+}
+header nav {
+    width: 80%;
+    
+    
+    
+}
+.navItems{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-left: 15%;
+    gap: 30px;
+  
+   justify-content: space-between;
+   align-items: center;
+   
+    font-size: 3rem;
+    font-weight: bolder;
+    
+   
+    
+  
+}
+
+.brandName{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: -15px;
+    background-color: #0000006b;
+    min-width: 200px;
+    z-index: 1;
+    
+}
+
+.brandName li a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+.brandName li a:hover{
+    color: rgb(184, 184, 184);
+}
+.itemsName{
+    width: 300px;
+    height: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 57px;
+    min-width: 200px;
+    color: rgba(181, 195, 207);  
+    background: transparent;
+    border-radius: 10px;
+}
+#ddicon{
+    position: absolute;
+    margin-top: 60px;
+    
+    color: rgb(181, 195, 207);
+}
+
+.logo{
+    display: flex;
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    margin-left: -5%
+    
+   
+}
+.brandLogo{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background: #ff0000;
+    
+    color: #ffffff;
+    text-align: center; 
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 8px;
+    
+}
+
+.brands{
+    margin-top: 7px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(181, 195, 207);
+  
+}
+
+
+
+.brandGallery{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+
+
+.brands a{
+  color: white; 
+}
+
+
+.itembox{
+    text-align: center;
+   
+    
+}
+.itemboxhb {
+    
+    margin-top: 50px;
+    
+}
+.itemboxhb a{
+    color: rgb(181, 195, 207);
+    border-radius: 5px;
+   
+}
+.itemboxhb a:hover{
+    
+    color: white;
+    border: 5px;
+    background: rgb(2, 23, 37);
+}
+.itembox .items {
+    
+  
+   text-align: center;
+    
+    
+}
+.items a {
+    text-decoration: none;
+}
+
+ .itembox .items .icon{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    
+    background-color: white;
+ }
+
+.icon i {
+    
+    
+    
+    color: rgb(0, 0, 0);
+    
+    
+}
+.itembox a{
+    color: rgb(181, 195, 207);
+}
+.itembox a:hover {
+    color: white;
+}
+.baricon{
+    margin-top: 80px;
+    margin-right: 20px;
+}
+.baricon :hover {
+    color: white;
+    
+}
+.baricon a{
+    color: rgb(181, 195, 207);
+    
+    
+}
+.barset{
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 75%;
+    background-color: #0000006b;
+    min-width: 200px;
+    z-index: 1;
+
+
+}
+.barset li{
+    padding-top: 20px;
+    
+    
+}
+.barset ul li a{
+    color: white;
+    text-decoration: none;
+   
+    
+    
+}
+.barset li a:hover{
+    color: rgb(181, 195, 207);
+}
+#brand{
+    margin-left: 12%;
+    font-size: 3rem;
+    
+}
+
+.shoesGallery{
+    width: 80%;
+    height: 750px;
+    
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.shoesGallery .box1{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: #f1ee16;
+   
+}
+.shoesGallery .box2{
+    width: 50%;
+    margin: 2%;
+    background-color: #1eff00;
+    
+}
+.shoesGallery .box3{
+    width: 50%;
+    margin: 2%;
+    background-color: #2a5e23;
+    
+}
+.shoesGallery .box4{
+    width: 50%;
+    margin: 2%;
+    background-color: #0d09da;
+    
+}
+.box1 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Air-Jordan-Shoes-Backgrounds.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+   
+}
+.box1 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    
+    background: rgb(9,54,85);
+    
+    position: inherit;
+}
+.box1 .shoesdescrption h1{
+    text-align: center;
+}
+
+.box1 .shoesPhoto .img{
+    position: inherit;
+}
+
+
+
+.box1 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Air\ Jordan\ 1\ Low.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+.box1 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Air-Jordan-Shoes-Backgrounds.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+
+
+.box1 .shoesPhoto .img{
+    position: inherit;
+}
+.box1 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    color: white;
+    
+    border: 2px solid rgb(10, 82, 165);
+    position: inherit;
+    
+}
+.box1 .shoesdescrption h1{
+    text-align: center;
+}
+.shoesdescrption .size input{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box1 .shoesdescrption .cart-btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+    word-wrap: normal;
+    
+}
+.Previous{
+    position: absolute;
+    margin-left: -2%;
+    margin-top: 300px;
+    border-radius: 50%;
+}
+.Previous i {
+    
+    color: rgb(255, 255, 255);
+}
+.Next{
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 300px;
+    border-radius: 50%;
+    
+    
+}
+.Next i {
+    
+    color: rgb(255, 255, 255);
+}
+/* box-2 */
+.box2 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Air Jordan1.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+.box2 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    color: white;
+    
+    border: 2px solid rgb(10, 82, 165);
+    background: rgb(9,54,85);
+    
+    position: inherit;
+}
+.box2 .shoesdescrption h1{
+    text-align: center;
+}
+
+.box2 .shoesPhoto .img{
+    position: inherit;
+}
+
+
+
+.box2 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Air-Jordan-Shoes-Backgrounds.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+.box2 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Nike Air Force.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+
+
+.box2 .shoesPhoto .img{
+    position: inherit;
+}
+.box2 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    
+    background: rgb(9,54,85);
+    position: inherit;
+}
+.box2 .shoesdescrption h1{
+    text-align: center;
+}
+.shoesdescrption .size input{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box2 .shoesdescrption .cart-btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+    word-wrap: normal;
+    
+}
+/* box-3 */
+.box3 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Nike Dunk.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+   
+}
+.box3 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    color: white;
+    
+    border: 2px solid rgb(10, 82, 165);
+    
+    position: inherit;
+}
+.box3 .shoesdescrption h1{
+    text-align: center;
+}
+
+.box3 .shoesPhoto .img{
+    position: inherit;
+}
+
+
+
+.box3 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Nike Blazer.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+.box3 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Air-Jordan-Shoes-Backgrounds.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+
+
+.box3 .shoesPhoto .img{
+    position: inherit;
+}
+.box3 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    
+    background: rgb(9,54,85);
+    position: inherit;
+}
+.box3 .shoesdescrption h1{
+    text-align: center;
+}
+.shoesdescrption .size input{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box3 .shoesdescrption .cart-btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+    word-wrap: normal;
+    
+}
+/* box4 */
+.box4 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Nike Air Force.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+.box4 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    color: white;
+    
+    border: 2px solid rgb(10, 82, 165);
+    background: rgb(9,54,85);
+    position: inherit;
+}
+.box4 .shoesdescrption h1{
+    text-align: center;
+}
+
+.box4 .shoesPhoto .img{
+    position: inherit;
+}
+
+
+
+.box4 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Nike/Nike Air Force.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+   
+}
+.box4 .shoesPhoto {
+    width: 100%;
+    height: 60%;
+    position: inherit;
+    
+    background-image: url("images/Air-Jordan-Shoes-Backgrounds.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+}
+ .cart-btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    
+    font-size: 1rem;
+    font-weight: bolder;
+    word-wrap: normal;
+    border-radius: 20px;
+}
+
+.box4 .shoesPhoto .img{
+    position: inherit;
+}
+.box4 .shoesdescrption{
+    width: 100%;
+    height: 40%;
+    
+    background: rgb(9,54,85);
+    position: inherit;
+}
+.box4 .shoesdescrption h1{
+    text-align: center;
+}
+.shoesdescrption .size input{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box4 .shoesdescrption .cart-btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+    word-wrap: normal;
+    
+}
+.brandUser{
+    display: flex;
+    gap: 5%;
+    margin-left: 45%;
+}
+.user{
+    width: 6%;
+    height: 3%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: rgb(8, 71, 122);
+    
+
+}
+.user a {
+    color: white;
+    
+    text-decoration: none;
+}
+footer{
+    background: rgba(9, 55, 85, 0.712); 
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+  }
+.main-container{
+    display: flex;
+}
+.main-container .box1{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.box1 .h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+   
+    
+}
+.box1 .content{
+    margin: 20px 0 0 0;
+    position: relative;
+    color: white;
+}
+.box1 .content:before{
+ position: absolute;
+ content: '';
+ top: -10px;
+ height: 2px;
+ width: 5%;
+ background-color: #ffffff;
+}
+
+.box1 .social{
+    width: 50%;
+    margin-top: 5%;
+    color: white;
+    
+  }
+  .box1 .social .sociaicon {
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+  }
+
+  .box1 .social a .sociaicon:hover{
+    color: rgb(197, 193, 193);
+  }
+  .main-container .box2{
+    flex-basis: 25%;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.main-container .box2 .content{
+    display: block;
+    padding-top: 20px;
+    color: white;
+}
+.main-container .box2 .content .place{
+    margin-top: 30px;
+    color: white;
+}
+.main-container .box2 .content .phone{
+    margin-top: 30px;
+    color: white;
+}
+.main-container .box2 .content .email{
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: white;
+    
+}
+.box2 .content:before{
+    float: left;
+    margin-top: -19px;
+    content: '';
+    top: -1px;
+    height: 2px;
+    width: 8%;
+    background-color: #ffffff;
+   }
+
+
+.main-container .box3{
+  flex-basis: 25%;
+  padding: 10px 20px;
+  color: white;
+  
+}
+.main-container .box3 .content{
+    display: block;
+    padding-top: 20px;
+}
+.box3 .content:before{
+    float: left;
+    margin-top: -19px;
+    content: '';
+    top: -1px;
+    height: 2px;
+    width: 10%;
+    background-color: #ffffff;
+   }
+.box3 form .text{
+    width: 50%;
+    font-size: 1.0625rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  .box3 form .msg{
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+  .box3 form input, .box3 form textarea{
+    width: 50%;
+    font-size: 1.0625rem;
+    background: #ece8e8;
+    padding-left: 10px;
+    
+    
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .box3 form .btn button{
+    height: 40px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background: #1cb323a1;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+  }
+  .box3 form .btn button:hover{
+    background: #1eff00;
+  }
+
